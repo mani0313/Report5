@@ -3,9 +3,11 @@
  */
 public class report5 {
     public static void main(String[]args){
+        double value;
         try{
-            String str=null;
-            System.out.println(str.length());
+            String str="3．14";
+            value = Double.parseDouble(str);
+            System.out.println(value);
         }
         catch(NullPointerException s){
             System.out.println("NullPointerExceptionが発生しました。");
